@@ -1,0 +1,25 @@
+@keyframes popup {
+  0% {
+    visibility: visible;
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes popout {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  99% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    visibility: hidden;
+  }
+}
