@@ -192,7 +192,11 @@ section {
 }
 
 .itemparents .accordion {
-  padding: 5pt 30pt;
+  padding: 5pt 10pt;
+}
+
+.col-md-5 {
+  width: auto;
 }
 
 .card {
